@@ -137,9 +137,14 @@ body {
   .vl2 {
     width: 75%;
     margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+  gap: 2%;
   }
-  .vl2 > img {
-    width: 100%;
+
+  .vl2  img {
+    width: 35%;
+    height: 40%;
   }
   .faq {
     width: 75%;
